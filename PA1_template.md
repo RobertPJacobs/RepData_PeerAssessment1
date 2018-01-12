@@ -132,7 +132,7 @@ with(dailyintervalaverage,
           ylab= "Average steps in interval across all days"))
 ```
 
-![plot of chunk unnamed-chunk-95](figure/unnamed-chunk-95-1.png)
+![plot of chunk plot_time_series](figure/plot_time_series-1.png)
 
 #### 5. The 5-minute interval that, on average, contains the maximum number of steps
 
@@ -275,4 +275,4 @@ xyplot(steps ~ interval | factor(weektype),
        data= weekdata)
 ```
 
-![plot of chunk unnamed-chunk-99](figure/unnamed-chunk-99-1.png)
+![plot of chunk plot_lattice](figure/plot_lattice-1.png)
